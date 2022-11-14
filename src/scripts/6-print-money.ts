@@ -8,7 +8,7 @@ const token = sdk.getContract(
 
 (async () => {
   try {
-    // // 設定したい最大供給量を設定
+    // 設定したい最大供給量を設定
     const amount = 1000000;
     // デプロイされた ERC-20 コントラクトを通して、トークンをミント
     await (await token).mint(amount);
